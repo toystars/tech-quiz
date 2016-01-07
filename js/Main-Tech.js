@@ -17,7 +17,7 @@ function timer(time,update,complete) {
             complete();
         }
         else update(Math.floor(now/1000));
-    },100); // the smaller this number, the more accurate the timer will be
+    }, 100); // the smaller this number, the more accurate the timer will be
 }
 
 function reloadPage() {
